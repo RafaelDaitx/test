@@ -1,47 +1,18 @@
-name: Bug / Nova Feature
-description: Template para reportar bugs ou solicitar novas funcionalidades.
-title: "[BUG/FEATURE] Descreva o problema ou funcionalidade"
-labels: []
-assignees: []
+### Nome da tarefa
+<hr>
 
-body:
-  - type: markdown
-    attributes:
-      value: "## 🛠️ Alteração da lib dos blocks"
+### Descrição
+Descreva a tarefa
 
-  - type: textarea
-    id: descricao
-    attributes:
-      label: "📝 Descrição"
-      description: "Descreva a tarefa ou mudança necessária."
-      placeholder: "Exemplo: Precisamos alterar a biblioteca X para Y..."
-    validations:
-      required: true
+### Problemas Encontrados
+Descreva o problema/motivação que originou a tarefa
 
-  - type: textarea
-    id: problemas
-    attributes:
-      label: "🐛 Problemas Encontrados"
-      description: "Se aplicável, descreva o problema que motivou essa alteração."
-      placeholder: "Exemplo: A biblioteca X apresentava falhas na compatibilidade..."
-    validations:
-      required: false
+### Observação para testes
+Observação geral para testes
 
-  - type: textarea
-    id: testes
-    attributes:
-      label: "🧪 Observação para Testes"
-      description: "Alguma observação ou consideração especial para os testes?"
-      placeholder: "Exemplo: Testar o comportamento com múltiplos usuários..."
-    validations:
-      required: false
+### Checklist
 
-  - type: checkboxes
-    id: checklist
-    attributes:
-      label: "✅ Checklist"
-      options:
-        - label: "Testes realizados"
-        - label: "Remoção de código desnecessário"
-        - label: "Refatoração concluída"
-        - label: "Fluxo do processo testado e aprovado"
+- [ ] Testes realizados
+- [ ] Remoção de código descartável
+- [ ] Review de código
+- [ ] Verificação de Branch de envio
